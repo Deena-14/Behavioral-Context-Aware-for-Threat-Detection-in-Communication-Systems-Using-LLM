@@ -1,0 +1,34 @@
+# Core ML / data
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.3.0
+joblib==1.3.1
+tqdm==4.65.0
+
+# LLM — Tier 1: Llama 3 via Groq (free cloud API, paper's described model)
+groq>=0.9.0
+
+# LLM — Tier 2: Anthropic Claude (fallback)
+anthropic>=0.25.0
+
+# Network capture
+scapy==2.5.0
+
+# Dashboard
+streamlit==1.25.0
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Utilities
+requests==2.31.0
+python-dotenv==1.0.0
+pydantic==2.0.2
+pyyaml==6.0
+colorama==0.4.6
+
+# Optional: local Llama 3 via Ollama (no install needed — Ollama is a separate app)
+# Install Ollama from https://ollama.com, then: ollama pull llama3
+
+# Optional heavy deps (comment out if not needed)
+# torch==2.0.1
+# transformers==4.30.2
